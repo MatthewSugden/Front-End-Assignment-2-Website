@@ -17,6 +17,18 @@
     - decrease width of sections
     - add `display: inline-block;` so that sections will float next to each other
   */
+  section {
+	 display: inline-block;
+	 width: 44%;
+ }
+ul {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 }
 /* END FIRST BREAKPOINT */
 
@@ -29,5 +41,17 @@
     - further decrease size of sections
     - increase size of headings and global fonts
   */
+  section {
+	 display: inline-block;
+	 width: 20%;
+ }
+ ul {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 }
 /* END SECOND BREAKPOINT */

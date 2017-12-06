@@ -9,6 +9,7 @@ header {
   background: #ccc;
   color: #444;
   text-align: center;
+  font-family:Courier;
 }
 h1 {
   font-size: 2.5em;
@@ -29,6 +30,7 @@ section {
   font-size: 1em;
   background-color: white;
   margin: 1em 1% 1em 1%;
+  font-family: Courier;
 }
 section:hover {
   background: #666;
@@ -51,40 +53,5 @@ nav {
 	width: auto;
 }
 
-/* GLOBAL AND MOBILE STYLES FIRST */ 
-
-@media screen and (min-width: 500px) { 
- /*FIRST BREAKPOINT (MEDIUM SIZE)*/
- section {
-	 display: inline-block;
-	 width: 44%;
- }
-ul {
-	display: inline-block;
-	align: center;
-	color: white;
-	text-align: center;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-@media screen and (min-width: 1000px) { 
- /*SECOND BREAKPOINT (LARGE SIZE)*/
- section {
-	 display: inline-block;
-	 width: 20%;
- }
- ul {
-	align: center;
-	display: inline-block;
-	color: white;
-	text-align: center;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-}
 
 
