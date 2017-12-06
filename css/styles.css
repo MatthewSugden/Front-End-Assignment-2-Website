@@ -1,0 +1,90 @@
+/* GLOBAL STYLES */
+
+body {
+  margin:0;
+  padding:0;
+  background-color: green;
+}
+header {
+  background: #ccc;
+  color: #444;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1em;
+}
+h2 {
+  font-size: 1.5em;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 2px;
+}
+section {
+  font-size: 1em;
+  background-color: white;
+  margin: 1em 1% 1em 1%;
+}
+section:hover {
+  background: #666;
+}
+ul {
+	background-color: black;
+	color: white;
+	width: 24.5%;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul:hover {
+	background-color: white;
+	color: black;
+}
+nav {
+	background-color: black;
+	width: auto;
+}
+
+/* GLOBAL AND MOBILE STYLES FIRST */ 
+
+@media screen and (min-width: 500px) { 
+ /*FIRST BREAKPOINT (MEDIUM SIZE)*/
+ section {
+	 display: inline-block;
+	 width: 44%;
+ }
+ul {
+	display: inline-block;
+	align: center;
+	color: white;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 1000px) { 
+ /*SECOND BREAKPOINT (LARGE SIZE)*/
+ section {
+	 display: inline-block;
+	 width: 20%;
+ }
+ ul {
+	align: center;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+}
+
+
