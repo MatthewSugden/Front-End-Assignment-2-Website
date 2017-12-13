@@ -3,13 +3,14 @@
 body {
   margin:0;
   padding:0;
-  background-color: green;
+  background-color: grey;
 }
 header {
   background: #ccc;
   color: #444;
   text-align: center;
   font-family:Courier;
+  font-size: 1.6em;
 }
 h1 {
   font-size: 2.5em;
@@ -35,16 +36,17 @@ section {
 section:hover {
   background: #666;
 }
-ul {
+h3 {
 	background-color: black;
 	color: white;
-	width: 24.5%;
+	width: 19%;
 	text-align: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	font-family: Courier;
 }
-ul:hover {
+h3:hover {
 	background-color: white;
 	color: black;
 }
@@ -52,6 +54,42 @@ nav {
 	background-color: black;
 	width: auto;
 }
+.FooterNav {
+	background: #ccc;
+	font-family: Courier;
+}
+
+/* CSS Slideshow */
+.slideshow {
+  margin: 2em auto 1em;
+  padding-bottom: 1em;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 400px;
+  overflow: hidden;
+  /*position: relative;*/
+}
+
+.slideshow img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  animation: round 21s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 14s; }
+img:nth-child(2) { animation-delay: 7s; }
+img:nth-child(3) { animation-delay: 0s; }
+/* END of CSS Slideshow */
 
 
 
