@@ -36,15 +36,16 @@ section {
 section:hover {
   background: #666;
 }
-h3 {
+nav {
 	background-color: black;
 	color: white;
-	width: 19%;
+	width: 100%;
 	text-align: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	font-family: Courier;
+	float: right;
 }
 h3:hover {
 	background-color: white;
@@ -63,10 +64,10 @@ nav {
 .slideshow {
   margin: 2em auto 1em;
   padding-bottom: 1em;
-  width: 500px; /* altering this breaks the centering??? */
-  height: 400px;
+  width: 1000px; /* altering this breaks the centering??? */
+  height: 1000px;
   overflow: hidden;
-  /*position: relative;*/
+  position: relative;
 }
 
 .slideshow img {
@@ -75,6 +76,7 @@ nav {
   height: 250px;
   animation: round 21s infinite;
   opacity: 0;
+  left: 0;
 }
 
 @keyframes round {
