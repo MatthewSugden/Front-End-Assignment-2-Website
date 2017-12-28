@@ -9,3 +9,4 @@ As a result of this, the wireframes do not resemble my finished project precisel
 as the pages themselves went through many iterations before reaching completion.
 
 <img src="images/JadenSmithSyre.jpg" alt="Jaden Smith - Syre"/>
+ image test
