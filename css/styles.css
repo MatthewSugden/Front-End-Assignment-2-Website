@@ -35,6 +35,7 @@ section {
   background-color: white;
   margin: 1em 1% 1em 1%;
   font-family: Courier;
+  display: inline-block;
 }
 section:hover {
   background: #666;
@@ -48,7 +49,22 @@ p {
 	margin: 1em 1% 1em 1%;
 	font-family: Courier;
 }
-
+section.hardsongs {
+	background: black;
+	color: white;
+}
+section.FavAlbums {
+	background: grey;
+	color: white;
+}
+section.Magic {
+	background: black;
+	color: white;
+}
+section.Future {
+	background: grey;
+	color: white;
+}
 
 /* NAVIGATION BAR STYLES*/
 nav {
