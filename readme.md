@@ -35,3 +35,12 @@
 	showing the amount of errors I had accumalted, where they were in the code and why they may have emerged.
 	</p>
 </div>
+
+<h2> Problems Encountered </h2>
+<div>
+	<p>
+	Whilst resizing my web page i noticed that the my title witin the h1 tag was spilling out of the boundaries of the header in very minimal sizes. I was unable to find a 
+	solution to this problem. I did not think this was a major problem as this design error was only encountered when the width of the window was below 389px, which is an extremely small
+	 window size. I believe that this should not be encountered during use from any user in mobile view port.
+	</p>
+</div>

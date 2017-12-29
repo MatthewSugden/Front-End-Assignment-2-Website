@@ -11,11 +11,14 @@ header {
   text-align: center;
   font-family:Courier;
   font-size: 1.6em;
+  max-width: 100%;
 }
 h1 {
   font-size: 2.5em;
   margin: 0;
   padding: 1em;
+  max-width: 100%;
+  height: auto;
 }
 h2 {
   font-size: 1.5em;
@@ -35,6 +38,15 @@ section {
 }
 section:hover {
   background: #666;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	font-size: 1em;
+	margin: 1em 1% 1em 1%;
+	font-family: Courier;
 }
 
 
@@ -60,7 +72,7 @@ a:visited {
 }
 nav li {
 	display: block;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	margin: 0 20px;
 	font-size: 1.5em;
 }
@@ -127,10 +139,11 @@ nav li {
 /* CSS Slideshow */
 .slideshow {
   margin: 2em auto 1em;
-  width: 500px; /* altering this breaks the centering??? */
+  width: 500px;
   height: 400px;
   overflow: hidden;
   position: relative;
+  max-width: 100%;
 }
 
 .slideshow img {
@@ -140,6 +153,7 @@ nav li {
   animation: round 30s infinite;
   opacity: 0;
   left: 0;
+  
 }
 
 @keyframes round {
@@ -156,33 +170,43 @@ img:nth-child(2) { animation-delay: 10s; }
 img:nth-child(3) { animation-delay: 0s; }
 /* END of CSS Slideshow */
 
+/* Figure Card */
+figure {
+  max-width: 100%;
+  height: auto;
+  background: #aaa;
+  border: 2px solid #999;
+  overflow: hidden;
+}
 
+figure img {
+  width: 100%;
+  height: auto;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
 
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  opacity: 0;
+  transition: all .5s;
+}
 
-
-
-
-
-/* GLOBAL AND MOBILE STYLES FIRST */
-
-/*
-  - this applies to any screen sizes under 500px
-  - if you leave the width off, sections will automatically fill the full page width
-  - no margins and little or no padding
-*/
-
+figure:hover figcaption {
+  transform: translateY(0em);
+  opacity: .78;
+}
+/* END of Figure Card */
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
-  /* 
-    - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
-    - add any hover states here
-    - increase font sizes
-    - add margins and padding to space things out
-    - decrease width of sections
-    - add `display: inline-block;` so that sections will float next to each other
-  */
-  section {
+section {
 	 display: inline-block;
 	 width: 44%;
  }
@@ -200,26 +224,21 @@ nav li {
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
-  /*
-    - applies to screens larger than 999px only
-    - add a max-width to your main section
-    - further decrease size of sections
-    - increase size of headings and global fonts
-  */
-  section {
-	 display: inline-block;
-	 width: 20%;
- }
+section {
+		 display: inline-block;
+		 width: 20%;
+	}
  nav li {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
+		display: inline-block;
+		color: white;
+		text-align: center;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
  nav a {
-	 text-decoration: none;
+	 /*text-decoration: none;*/
+	}
 }
 /* END SECOND BREAKPOINT */
 
