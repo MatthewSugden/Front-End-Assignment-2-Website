@@ -65,6 +65,10 @@ section.Future {
 	background: grey;
 	color: white;
 }
+div.SMedia {
+	font-family:Courier;
+}
+
 
 /* NAVIGATION BAR STYLES*/
 nav {
@@ -255,6 +259,10 @@ section {
  nav a {
 	 /*text-decoration: none;*/
 	}
+a.SectionButton {
+	color: black;
+	text-decoration: none;
+  }
 }
 /* END SECOND BREAKPOINT */
 

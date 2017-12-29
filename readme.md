@@ -52,6 +52,7 @@
 	Used lab 07
 	W3C Schools for a lot
 	Sourced many images from genius
+	https://developers.google.com/maps/documentation/javascript/adding-a-google-map#get_latLng
 	
 	</p>
 </div>

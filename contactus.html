@@ -30,28 +30,67 @@
 			<li><a href="./reviews.html">Reviews</a></li>
 			<li><a href="new-music.html">New Music</a></li>
 			<li><a href="recommendations.html">Recommendations</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
 			<li><a href="sections.html">Matt's Opinion</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</nav>
 	
 	<main>
 	
+		<div class="SMedia">
+			<h2>Contact Me</h2>
+			<p>The best way to get in contact with me would be through social media:</p>
+			<a href="https://www.facebook.com/matthew.sugden.9" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/Matthew_Sugden" class="fa fa-twitter"></a>
+			<a href="https://www.instagram.com/matthew_sugden/" class="fa fa-instagram"></a>
+			<p>Add me on Snapchat: Matthew_Sugden</p>
+			<p>Email me: m.sugden97@gmail.com</p>
+		</div>
+		
+	<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Where I am Located</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 52.633715, lng:  -1.689915};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxGQW3hH3nckNRE-n4HFtdm9luPShBDug&callback=initMap">
+    </script>
 	
+		<div>
+		<p>The Marker shows Tamowrth. My Hometown, which is where I am located majority of the time.</p>
+		</div>
 	
 	</main>
 	
 	<footer>
-		<nav>
-			<ul>
-				<li><a href="./index.html">Home</a></li>
-				<li><a href="./reviews.html">Reviews</a></li>
-				<li><a href="new-music.html">New Music</a></li>
-				<li><a href="recommendations.html">Recommendations</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-				<li><a href="sections.html">Matt's Opinion</a></li>
-			</ul>
-		</nav>
+	  <nav>
+		<ul>
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="./reviews.html">Reviews</a></li>
+			<li><a href="new-music.html">New Music</a></li>
+			<li><a href="recommendations.html">Recommendations</a></li>
+			<li><a href="sections.html">Matt's Opinion</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	  </nav>
 	</footer>
 
 	
