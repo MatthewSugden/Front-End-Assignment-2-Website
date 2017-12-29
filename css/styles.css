@@ -1,5 +1,6 @@
-/* GLOBAL STYLES */
+/* No Errors */
 
+/* GLOBAL STYLES */
 body {
   margin:0;
   padding:0;
@@ -67,6 +68,10 @@ section.Future {
 }
 div.SMedia {
 	font-family:Courier;
+}
+#map {
+    height: 400px;
+    width: 100%;
 }
 
 
