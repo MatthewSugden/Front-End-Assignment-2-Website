@@ -191,8 +191,8 @@ nav li {
 
 .slideshow img {
   position: absolute;
-  /*width: 400px;
-  height: 400px;*/
+  width: 450px;
+  height: 450px;
   animation: round 30s infinite;
   opacity: 0;
   left: 0;
