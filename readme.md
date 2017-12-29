@@ -1,8 +1,9 @@
 <h1>Read Me File</h1>
+<p> Matthew Sugden P15229238</p>
 
 <div>
 	<p>
-	During the development of my website many problems and errors occurred. 
+	During the development of my website, many problems and errors occurred. 
 	The major error in which I had first encountered was with my navigation bar. 
 	Making this a viable and efficient method of navigation through my website was a tall order for me, 
 	as when I tried to fix one problem another would arise. I overcame this with the help of my peers and tutors in labs.
@@ -12,8 +13,8 @@
 <div>
 	<p>
 	One of the most effective elements that I put in use whilst creating my website was wireframes.
-	They were extremely useful for me as they gave me a basic idea of how i wanted my website to look,
-	making it much easier to create and develop. I created a wireframe before i started the deveopment of each page of my website.
+	They were extremely useful for me as they gave me a basic idea of how I wanted my website to look,
+	making it much easier to create and develop. I created a wireframe before I started the deveopment of each page of my website.
 	As a result of this, the wireframes do not resemble my finished project precisely because development took longer than expected 
 	as the pages themselves went through many iterations before reaching completion.
 	</p>
@@ -32,7 +33,8 @@
 	testing to see that all the links worked properly, images displayed and the site was responsive. The second and possibly the most valuable test 
 	I conducted on the webiste, was running it throught the <a href="https://validator.w3.org/">W3C Validator</a>. I ran my HTML code and CSS code through this 
 	validator to make sure there was no errors, but if any arose I would debug the issue and attempt to solve it. The W3C Validator was very helpful in this process: 
-	showing the amount of errors I had accumalted, where they were in the code and why they may have emerged.
+	showing the amount of errors I had accumalted, where they were in the code and why they may have emerged. I also had my friends and family test the webiste by just 
+	using it. I asked if they encountered any problems and if so I made note of them and addressed them.
 	</p>
 </div>
 
