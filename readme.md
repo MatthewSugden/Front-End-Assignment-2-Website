@@ -20,10 +20,10 @@
 </div>
 
 <h2>Homepage Wireframe</h2>
-<img src="images/WireFrame1.jpg" alt="Homepage Wireframe"/>
+<img src="images/read-me/WireFrame1.jpg" alt="Homepage Wireframe"/>
 
 <h2>Wireframe for majority of content pages and the Wireframe for the Contact Us page</h2>
-<img src="images/WireFrame2.jpg" alt="Content and Contact Us Wireframes"/>
+<img src="images/read-me/WireFrame2.jpg" alt="Content and Contact Us Wireframes"/>
 
 <h2> Testing </h2>
 <div>
