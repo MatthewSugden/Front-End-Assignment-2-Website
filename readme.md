@@ -42,7 +42,8 @@
 	Whilst resizing my web page i noticed that the my title witin the h1 tag was spilling out of the boundaries of the header in very minimal sizes. I was unable to find a 
 	solution to this problem. I did not think this was a major problem as this design error was only encountered when the width of the window was below 389px, which is an extremely small
 	 window size. I believe that this should not be encountered during use from any user in mobile view port. Many debugging issues were encountered whilst developing this 
-	 website from little to small from forgetting to close tags to complications with positioning.
+	 website from little to small from forgetting to close tags to complications with positioning. These positioning errors were easily corrected with the use 
+	 of flex box.
 	</p>
 </div>
 
