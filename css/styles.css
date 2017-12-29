@@ -37,16 +37,7 @@ section {
   margin: 1em 1% 1em 1%;
   font-family: Courier;
 }
-section.Recommendations {
-	background-color:white;
-}
-section a {
-	color: white;
-}
-a.SectionButton {
-	color: black;
-	text-decoration: none;
-}
+
 section:hover {
   background: #666;
 }
@@ -59,6 +50,7 @@ p {
 	margin: 1em 1% 1em 1%;
 	font-family: Courier;
 }
+/* Styling Sections */
 section.hardsongs {
 	background: black;
 	color: white;
@@ -75,9 +67,22 @@ section.Future {
 	background: grey;
 	color: white;
 }
+section.Recommendations {
+	background-color:white;
+}
+section a {
+	color: white;
+}
+a.SectionButton {
+	color: black;
+	text-decoration: none;
+}
+
+/* Font change */
 div.SMedia {
 	font-family:Courier;
 }
+/* Google API styles*/
 #map {
     height: 400px;
     width: 100%;
@@ -113,13 +118,8 @@ nav li {
 }
 /*NAVIGATION BAR END*/
 
-
-.FooterNav {
-	background: #ccc;
-	font-family: Courier;
-}
-
-/* Style all font awesome icons */
+/* STYLING FOR SOCIAL MEDIA ICONS */
+/* Style all font awesome social media icons */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -128,12 +128,12 @@ nav li {
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+/* Hover Effect on social media icon */
 .fa:hover {
     opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
+/* Select a color for each Social Media Icon */
 
 /* Facebook */
 .fa-facebook {
@@ -169,6 +169,7 @@ nav li {
 	top: 5px;
     right: 0px;
 }
+/* SOCIAL MEDIA STYLING END */
 
 
 /* CSS Slideshow */
