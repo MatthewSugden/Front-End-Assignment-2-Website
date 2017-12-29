@@ -50,9 +50,14 @@
 <h2> References </h2>
 <div>
 	<p>
-	Used lab 07
-	W3C Schools for a lot
-	Sourced many images from genius
-	https://developers.google.com/maps/documentation/javascript/adding-a-google-map#get_latLng
+	To create my website I used the internet to gain inspiration for my website and for my code. I have referenced the websites I used for help and inspiration below:
+	<ul>
+		<li>Used labs on blackboard: Lab 04, Lab 07 and Lab 08</li>
+		<li>I used W3C Schools for information on understanding the code I was inputting and for inspiration for my website</li>
+		<li>Sourced many images from <a href="https://genius.com/">genius<a> by searching for the album and saving the album image.</li>
+		<li>https://developers.google.com/maps/documentation/javascript/adding-a-google-map#get_latLng</li>
+		<li>https://www.w3schools.com/howto/howto_css_social_media_buttons.asp</li>
+		<li>https://www.w3schools.com/css/css_positioning.asp</li>
+	</ul>
 	</p>
 </div>
