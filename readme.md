@@ -31,7 +31,7 @@
 	The testing of this website was conducted in many different ways, imidiate testing was conducted by myself. This was done by simply using the website
 	testing to see that all the links worked properly, images displayed and the site was responsive. The second and possibly the most valuable test 
 	I conducted on the webiste, was running it throught the <a href="https://validator.w3.org/">W3C Validator</a>. I ran my HTML code and CSS code through this 
-	validator to make sure there was no errors, but if any arose I would debug the issue and attempt to solve it. The W3C Validatorwas very helpful in this process 
+	validator to make sure there was no errors, but if any arose I would debug the issue and attempt to solve it. The W3C Validator was very helpful in this process: 
 	showing the amount of errors I had accumalted, where they were in the code and why they may have emerged.
 	</p>
 </div>
