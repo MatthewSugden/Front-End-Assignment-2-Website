@@ -37,6 +37,9 @@ section {
   margin: 1em 1% 1em 1%;
   font-family: Courier;
 }
+section.Recommendations {
+	background-color:white;
+}
 section a {
 	color: white;
 }
