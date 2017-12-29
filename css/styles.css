@@ -5,7 +5,6 @@ body {
   margin:0;
   padding:0;
   background-color: grey;
-  color: black;
 }
 header {
   background: #ccc;
@@ -39,7 +38,7 @@ section {
   font-family: Courier;
 }
 section a {
-	color: black;
+	color: white;
 }
 a.SectionButton {
 	color: black;
@@ -90,7 +89,6 @@ div.SMedia {
 	flex-direction: column;
 	justify-content: center;
 }
-
 
 
 /* NAVIGATION BAR STYLES*/
